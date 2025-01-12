@@ -1,0 +1,81 @@
+/* page title */
+.page-title {
+  display: flex;
+  justify-content: left;
+  margin-top: -25px;
+  margin-left: 130px;
+}
+
+.page-title > h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.8em;
+  font-weight: 700;
+}
+
+.title-underline {
+  display: flex;
+  justify-content: left;
+  margin-top: -42px;
+  margin-left: 130px;
+}
+
+.title-underline > .page-title-bottom-border {
+  content: "";
+  width: 390px;
+  display: block;
+  border-bottom: 5px solid black;
+  border-radius: 25px;
+}
+
+/* about grid */
+
+.about-wrapper {
+  display: grid;
+  justify-content: center;
+  margin: 25px 25px 0px 130px;
+  grid-template-rows: 50% 50%;
+}
+
+.about-wrapper > .about-grid-row-top img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 6px solid #dbdbdb;
+}
+
+.about-wrapper > .about-grid-row-bottom img {
+  max-width: 100%;
+  max-height: 360px;
+  margin-left: 0px;
+  margin-top: -40px;
+  height: auto;
+  border-radius: 10px;
+  border: 6px solid #dbdbdb;
+}
+
+.about-wrapper > .about-grid-row-top {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.about-wrapper > .about-grid-row-bottom {
+  display: grid;
+  margin-bottom: 80px;
+  grid-template-columns: 40% 60%;
+}
+
+.about-wrapper p {
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.about-wrapper > .about-grid-row-top p {
+  display: flex;
+  justify-content: center;
+  margin-top: 66px;
+}
